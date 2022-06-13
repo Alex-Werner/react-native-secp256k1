@@ -11,13 +11,13 @@ add_definitions(-DUSE_SCALAR_8X32=1)
 add_definitions(-DENABLE_MODULE_ECDH=1)
 add_definitions(-DENABLE_MODULE_RECOVERY=1)
 
-include_directories(../external/secp256k1)
-include_directories(../external/secp256k1/src)
+include_directories(../secp256k1)
+include_directories(../secp256k1/src)
 
 add_library( secp256k1
              SHARED
-             ../external/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-             ../external/secp256k1/src/java/org_bitcoin_Secp256k1Context.c
-             ../external/secp256k1/src/secp256k1.c )
+             ../secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
+             ../secp256k1/src/java/org_bitcoin_Secp256k1Context.c
+             ../secp256k1/src/secp256k1.c )
 
 target_link_libraries( secp256k1 )

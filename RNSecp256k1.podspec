@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.author              = 'Ledger'
   s.source              = { :git => 'https://github.com/LedgerHQ/react-native-secp256k1.git', :tag => "v#{package['version']}" }
   s.platform            = :ios, '8.0'
-  s.source_files         = 'ios/*.{h,mm,hpp,m}', 'external/secp256k1/include/*.h'
+  s.source_files         = 'ios/*.{h,mm,hpp,m}', 'secp256k1/include/*.h'
   s.dependency          'React'
 end

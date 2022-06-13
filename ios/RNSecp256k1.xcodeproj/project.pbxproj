@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNSecp256k1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSecp256k1.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		687D335F21D35CF1000D02F6 /* secp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = secp256k1.c; path = ../external/secp256k1/src/secp256k1.c; sourceTree = "<group>"; };
+		687D335F21D35CF1000D02F6 /* secp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = secp256k1.c; path = ../secp256k1/src/secp256k1.c; sourceTree = "<group>"; };
 		687D336421D4AB1F000D02F6 /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
 		687D336521D4AB1F000D02F6 /* base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = base64.m; sourceTree = "<group>"; };
 		687D336721D4AE5A000D02F6 /* RNSecp256k1Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSecp256k1Ext.h; sourceTree = "<group>"; };
@@ -224,8 +224,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../external/secp256k1/**",
-					"$(SRCROOT)/../external/secp256k1/src/**",
+					"$(SRCROOT)/../secp256k1/**",
+					"$(SRCROOT)/../secp256k1/src/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = (
@@ -251,8 +251,8 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../external/secp256k1/**",
-					"$(SRCROOT)/../external/secp256k1/src/**",
+					"$(SRCROOT)/../secp256k1/**",
+					"$(SRCROOT)/../secp256k1/src/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = (

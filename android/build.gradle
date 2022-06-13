@@ -27,7 +27,7 @@ android {
     sourceSets {
         main {
             java {
-                srcDir "../external/secp256k1/src/java"
+                srcDir "../secp256k1/src/java"
                 exclude "**/NativeSecp256k1Test.java"
             }
         }
@@ -48,4 +48,3 @@ dependencies {
     implementation 'com.facebook.react:react-native:+'
     implementation 'com.google.guava:guava:27.0.1-android'
 }
-  
